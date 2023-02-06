@@ -1,0 +1,77 @@
+.board{
+    outline: 3px solid rgb(0, 0, 0);
+}
+
+.current_score{
+    background-color : none;
+    padding: 0px 15px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    color: rgb(229, 255, 0);
+}
+
+h6{
+    background-color: wheat;
+    color: black;
+    padding: 2px 15px;
+}
+
+.row{
+    height: 35px;
+}
+
+.cell{
+    width: 35px;
+    height: 35px;
+    outline: 3px solid rgb(0, 0, 0);
+    display: inline-block;
+}
+
+.snake-cell{
+    background-color: rgb(2, 201, 2);
+}
+
+.food-cell {
+    background-color: red;
+}
+
+.cell-green {
+    background-color: rgb(0, 196, 0);
+}
+
+.cell-red {
+    background-color: red;
+}
+
+.cell-purple {
+    background-color: purple;
+}
+
+p{
+    color: wheat;
+    margin: 20px;
+    font-size: 20px;
+    background-color: black;
+    padding: 2px 20px;
+}
+
+a{
+    color: rgb(174, 255, 0);
+}
+
+.footer > a{
+    font-weight: bold;
+    background-color: black;
+    text-decoration: none;
+}
+.footer > a:hover{
+    
+            color: #fff;
+            text-shadow:
+                0 0 7px #fff,
+                0 0 10px #fff,
+                0 0 102px #0fa,
+                0 0 151px #0fa;
+}

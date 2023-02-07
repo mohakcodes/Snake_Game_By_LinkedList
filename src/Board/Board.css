@@ -38,7 +38,7 @@ h6{
 }
 
 .cell-green {
-    background-color: rgb(0, 196, 0);
+    background-color: rgb(3, 176, 3);
 }
 
 .cell-red {
@@ -47,6 +47,21 @@ h6{
 
 .cell-purple {
     background-color: purple;
+}
+
+.cell-dark-green{
+    background-color: rgb(77, 255, 0);
+    background-image:
+            repeating-linear-gradient(45deg,
+                rgb(149, 255, 36),
+                rgb(38, 255, 0) 10px,
+                rgb(255, 0, 0) 10px,
+                rgb(245, 0, 0) 20px
+            );
+}
+
+.cell-tail{
+    background-color: darkgreen;
 }
 
 p{
@@ -67,11 +82,10 @@ a{
     text-decoration: none;
 }
 .footer > a:hover{
-    
-            color: #fff;
-            text-shadow:
-                0 0 7px #fff,
-                0 0 10px #fff,
-                0 0 102px #0fa,
-                0 0 151px #0fa;
+    color: #fff;
+    text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 102px #0fa,
+    0 0 151px #0fa;
 }

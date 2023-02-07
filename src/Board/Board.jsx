@@ -320,6 +320,13 @@ const Board = () => {
                                 className = "cell cell-red";
                             }
                         }
+
+                        if(snakeCells.has(cellValue) && cellValue === snake.head.value.cell)
+                        {
+                            className = "cell cell-green cell-dark-green"
+                            return <div key={cellIdx} className={className}></div>;
+                        }
+
                         if(snakeCells.has(cellValue)) className = "cell cell-green";
                         return <div key={cellIdx} className={className}></div>;
                     })}
